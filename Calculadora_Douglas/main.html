@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média das Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Média das Notas dos Alunos</h1>
+        <div class="form">
+            <div class="form-nota">
+              <label for="nota">Nota:</label>
+              <input type="text" id="nota">
+            </div>
+            <button onclick="adicionarNota()">Adicionar</button>
+        </div>
+        <textarea id="listaNotas" readonly></textarea>
+        <button onclick="calcularMedia()">Calcular Média</button>
+        <p>A média é: <span id="resultado"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
