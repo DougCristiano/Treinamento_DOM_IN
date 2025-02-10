@@ -26,7 +26,7 @@ h1 {
     justify-content: space-between;
 }
 
-.form_nota{
+.formNota{
     display: block;
 }
 
@@ -53,6 +53,7 @@ button:active{
     background-color: red;
     color: black
 }
+
 textarea {
     width: 100%;
     height: 30vh;
